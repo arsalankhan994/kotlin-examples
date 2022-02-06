@@ -14,7 +14,7 @@ fun main() {
     }
 
     // Smart Casting
-    val studentWithRealObject: Any? = Student()
+    var studentWithRealObject: Any? = Student()
 
     if (studentWithRealObject is Student) {
         println("Student name: ${studentWithRealObject.name}")
