@@ -57,9 +57,9 @@ class NonInheritedClass {
 /*
 Try to Inherit non-inheritable class
 */
-class InheritNonInheritableClass : NonInheritedClass() {
+/*class InheritNonInheritableClass : NonInheritedClass() {
 
-}
+}*/
 
 /*
 Using open keyword to inherit this class
